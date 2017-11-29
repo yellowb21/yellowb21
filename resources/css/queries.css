@@ -38,6 +38,10 @@
 .section-second-image {
         height: auto;
     }
+    
+    .section-second-image p {
+        margin-top: 5-px;
+    }
 .how-item {
     margin: 30px;
         

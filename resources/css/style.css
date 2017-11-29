@@ -140,6 +140,10 @@ header {
     width: 100%;
 }
 
+.my-nav li {
+    color: #fff;
+}
+
 .main-nav {
     float: right;
     list-style: none;
