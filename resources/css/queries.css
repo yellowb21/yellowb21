@@ -38,6 +38,14 @@
     height: auto;
     }
     
+.prog-flex{
+    width: 100%;
+    flex-direction: column;
+}
+
+.prog-flex-item {
+    flex: 1 1 100%;
+}
     
 }
 
