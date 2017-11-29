@@ -167,7 +167,10 @@ header a:active {
 
 
 .my-name{
-    font-size: 200%
+    font-size: 200%;
+    text-align: right;
+    text-shadow: 5px 5px 20px #000000
+    
 }
 
 .hero-text-box{
@@ -180,17 +183,23 @@ header a:active {
 
 .header-flex{
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
     margin-top: 20%
 }
 
-.header-flex-item {
+.header-flex-name {
     order: 1;
+    flex: 1 1 100%
+    /*flex-grow: 1;*/
+}
+
+.header-flex-text {
+    order: 2;
     flex-grow: 1;
 }
 
 .welcome-text {
-    margin-top: 15%
+    margin-top: 5%
     
 }
 
