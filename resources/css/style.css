@@ -277,22 +277,25 @@ header a:active {
 
 .intro-flex {
     width: 100%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .intro-flex-text {
     order: 1;
-    flex: 1 1 75%;
-    margin: 5%;
+    flex: 1 1 45%;
+    /*margin: 5%;*/
 }
 
 .intro-flex-photo {
     order: 1;
-    flex-basis: 25%;
+    flex: 1 1 25%;
+    margin: 15px auto;
 }
 
 .bio-flex{
     float: left;
-    width: 50%;
+    width: 100%;
     display:flex;
     flex-direction: column;
 }
@@ -308,7 +311,7 @@ header a:active {
 }
 
 .my-photo{
-    
+    margin: 0 auto;
 }
 
 .my-photo img {
