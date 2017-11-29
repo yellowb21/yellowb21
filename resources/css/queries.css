@@ -1,0 +1,48 @@
+
+
+
+
+
+
+
+/*----Big tablet to 1200px to 1023pxpx (widths smaller than 1140px row----*/
+@media only screen and (max-width: 1200px) {
+    
+    
+}
+
+
+/*----Small tablets like iPad portrait 768 to big tablet 768 to 1023pxpx----*/
+@media only screen and (max-width: 1023px) {
+    
+    
+}
+
+
+
+/*----Small phones to small tablets 481 to 767pxpx----*/
+@media only screen and (max-width: 767px) {
+.how-flexbox {
+    flex-direction: column;
+}
+    
+.section-second-image {
+        height: auto;
+    }
+.how-item {
+    margin: 30px;
+        
+    }
+
+.fc-flex-item {
+    height: auto;
+    }
+    
+    
+}
+
+/*----Small phones 0 to 480px----*/
+@media only screen and (max-width: 480px) {
+    
+    
+}

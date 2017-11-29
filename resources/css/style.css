@@ -181,22 +181,7 @@ header a:active {
     transform: translate(-50%, -50%);
 }
 
-.header-flex{
-    display:flex;
-    flex-direction: column;
-    margin-top: 20%
-}
 
-.header-flex-name {
-    order: 1;
-    flex: 1 1 100%
-    /*flex-grow: 1;*/
-}
-
-.header-flex-text {
-    order: 2;
-    flex-grow: 1;
-}
 
 .welcome-text {
     margin-top: 5%
@@ -214,6 +199,24 @@ header a:active {
     background-position: center;
     height: 96vh;
     background-attachment: fixed;
+    margin-bottom: 80px;
+}
+.main-flex{
+    display:flex;
+    flex-direction: column;
+    margin-top: 20%;
+    margin-left: 40p
+}
+
+.main-flex-name {
+    order: 1;
+    flex: 1 1 100%
+    /*flex-grow: 1;*/
+}
+
+.main-flex-text {
+    order: 2;
+    flex-grow: 1;
 }
 
 .big-header-text {
@@ -345,6 +348,7 @@ header a:active {
 .prog-flex{
     display:flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .prog-flex-item {
@@ -359,7 +363,7 @@ header a:active {
 /*-----------------------------------*/
 
 .section-second-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/yannick-pulver-180756.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/programming2.jpg);
     background-size: cover;
     color: #fff;
     height: 75vh;
@@ -370,14 +374,25 @@ header a:active {
     color: #fff;
 }
 
-.how-flex {
+.how-flexbox {
     display: flex;
     justify-content: space-between;
     flex-basis: 30%;
+    flex-wrap: wrap;
 }
 
-.how{
+.how-item{
     flex-basis: 30%;
+}
+
+.how-item h2{
+    color: #fff;
+    text-align: left;
+}
+
+.people-icon{
+    display: block;
+    font-size: 340%
 }
 
 /*-----------------------------------*/
@@ -458,7 +473,7 @@ header a:active {
 /*-----------------------------------*/
 
 .section-photo{
-    margin-top: 5%
+    margin-top: 1%
 }
 
 
@@ -467,8 +482,9 @@ header a:active {
 }
 
 .flexbox {
-  display: flex;
-  flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5% ;
 }
 
 .flexbox-div {
