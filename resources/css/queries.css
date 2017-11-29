@@ -8,12 +8,21 @@
 /*----Big tablet to 1200px to 1023pxpx (widths smaller than 1140px row----*/
 @media only screen and (max-width: 1200px) {
     
+.section-main{
+    height: auto;
+    }
+
     
 }
 
 
 /*----Small tablets like iPad portrait 768 to big tablet 768 to 1023pxpx----*/
 @media only screen and (max-width: 1023px) {
+    
+.section-main{
+    height: auto;
+    }
+
     
     
 }

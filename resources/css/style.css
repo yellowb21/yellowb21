@@ -458,7 +458,6 @@ header a:active {
     order: 1;
     height: 45%;
     flex: 0 1 1;
-    background-color: rgba(150, 150, 150, 0.13);
     margin: 10px;
 }
 
