@@ -135,7 +135,9 @@ header {
     background-color: #3e3e3e;
 }
 .my-nav {
-    background-color: #000000;
+    background-color: #3e3e3e;
+    position: fixed;
+    width: 100%;
 }
 
 .main-nav {
@@ -306,15 +308,28 @@ header a:active {
 }
 
 .intro-flex-text {
-    order: 1;
+    order: 2;
     flex: 1 1 45%;
     /*margin: 5%;*/
 }
 
 .intro-flex-photo {
     order: 1;
-    flex: 1 1 25%;
-    margin: 15px auto;
+    flex: 0 1 25%;
+    margin: 150px auto;
+    min-width: 400px;
+}
+
+.my-photo{
+    margin: 0 auto;
+    
+}
+
+.my-photo img {
+    width: 100%;
+    border-radius: 25%;
+    box-shadow: 2px 2px 50px #dddddd;
+    
 }
 
 .bio-flex{
@@ -334,17 +349,7 @@ header a:active {
     
 }
 
-.my-photo{
-    margin: 0 auto;
-}
 
-.my-photo img {
-    height: 500px;
-    border-radius: 25%;
-    margin-top: 0px;
-    box-shadow: 2px 2px 50px #dddddd;
-    
-}
 
 /*-----------------------------------*/
 /*PROGRAMMING */
@@ -359,13 +364,14 @@ header a:active {
 
 .prog-flex{
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
 }
 
 .prog-flex-item {
     order: 1;
     flex: 1 1 50%;
+    margin: 20px
 }
 
 
