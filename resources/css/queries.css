@@ -46,7 +46,11 @@
 .prog-flex-item {
     flex: 1 1 100%;
 }
-    
+
+.section-main{
+    height: auto;
+    }
+
 }
 
 /*----Small phones 0 to 480px----*/
